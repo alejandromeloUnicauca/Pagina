@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+    <html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+        <title>U'wa</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    </head>
+    <body>
+        <script>
+            window.onkeyup = function(e){
+                
+                document.getElementsByClassName('date')[0].firstElementChild.innerHTML = 'NuevoTexto';
+                if(e.keyCode==38){
+                    console.log("keyup");
+                }
+                
+            };
+        </script>
+        <div id="contenedor">
+            <header>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#" >Integrantes</a>
+                        <ul class="dropdown-content">
+                            <li><a href="jhon.html">Jhon Alejandro Melo</a></li>
+                            <li><a href="">Jorge Enrrique Bejarano</a></li>
+                            <li><a href="">Angie Natalia Barco</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                </ul>
+            </nav>
+            <section>
+                <img id="logo" src="images/logo.png" alt="logo"/>
+                <h2>U'wa</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus est a orci consequat fringilla. Quisque consectetur sollicitudin lorem, et euismod justo ultrices vitae. Fusce euismod, justo eu lacinia convallis, ex libero imperdiet eros, vitae consectetur leo sapien id lorem. Duis finibus tellus enim, a vestibulum dolor semper nec. Aenean aliquet auctor turpis, in lacinia ante faucibus a. Quisque fringilla ex ac nulla sagittis eleifend. Donec eleifend euismod nulla vitae viverra. Aliquam metus leo, elementum et est at, vulputate malesuada leo. Suspendisse aliquam sit amet lectus eu vulputate.
+                </p>
+                
+                <h3>Integrantes</h3>
+                
+                <div id="content-columns">
+                    <div class="columns">
+                      <ul class="integrante">
+                        <li class="header">Jhon Alejandro Melo</li>
+                        <li><img class="imagen" src="images/Guerrero.png" alt="Guerrero"/></li>
+                        <li>Guerrero</li>
+                      </ul>
+                    </div>
+                    <div class="columns">
+                      <ul class="integrante">
+                        <li class="header">Jorge Enrrique Bejarano</li>
+                        <li><img class="imagen" src="images/curandero.png" alt="Curandero"/></li>
+                        <li>Curandero</li>
+                      </ul>
+                    </div>
+                    <div class="columns">
+                      <ul class="integrante">
+                        <li class="header">Angie Natalia Barco</li>
+                        <li><img class="imagen" src="images/mago.png" alt="Mago"/></li>
+                        <li>Mago</li>
+                      </ul>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                Creado por U'wa&copy; 2018
+            </footer>
+        </div>
+    </body>
+</html>
