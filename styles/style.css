@@ -129,10 +129,22 @@ p{
 
 #datos{
     text-align: left;
-    display: block;
     position: relative;
     left: 7%;
     font-family: "Lucida Console";
+}
+
+#libro{
+    position: absolute;
+    left: 27.3%;
+    width: auto;
+    height: auto;
+}
+
+#portada-lib{
+    width: 150px;
+    height: 180px;
+    box-shadow: 5px 3px #111;
 }
 /* Fin Integrantes */
 
