@@ -146,6 +146,14 @@ p{
     height: 180px;
     box-shadow: 5px 3px #111;
 }
+
+.content-video{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 480px;
+    display: block;
+}
 /* Fin Integrantes */
 
 /*------------Contacto----------*/
